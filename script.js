@@ -187,7 +187,7 @@ function displayCourses1(courses) {
     courseCard.classList.add("cards1");
     courseCard.innerHTML = `
           <div class="course-img" style="position:'relative';height:'100%';width:'100%'">
-          <img src="${course["course-img"]}" style="height:100%;width:100%" alt=""> 
+          <img src="${course["course-img"]}" style="height:100%;width:100%;border-radius:10px" alt=""> 
           </div>
           <span class="company-logo">
               <img src="${course["image-url"]}" style="
@@ -233,7 +233,7 @@ function displayCourses2(courses) {
     courseCard.classList.add("cards2");
     courseCard.innerHTML = `
     <div class="course-img" style="position:'relative';height:'100%';width:'100%'">
-          <img src="${course["course-img"]}" style="height:100%;width:100%" alt=""> 
+          <img src="${course["course-img"]}" style="height:100%;width:100%;border-radius:10px" alt=""> 
           </div>
               <span class="company-logo">
                   <img src="${course["image-url"]}" style="
