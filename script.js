@@ -321,6 +321,7 @@ function showhamnav() {
   dataSmall.style.display = "none";
 }
 
+
 //to show tha navbar when cross is clicked or when it's first time appear
 function showsmallnav() {
   var navBar = document.getElementById("nav-small");
@@ -365,6 +366,7 @@ function handleBurger() {
 
 window.onresize = function () {
   var hamnav = document.getElementById("ham-nav");
+  var hamList=document.getElementById('nav-list')
   var navBar = document.getElementById("nav-small");
   var heroSmall = document.getElementById("small-hero");
   var dataSmall = document.getElementById("data-small");
@@ -374,8 +376,10 @@ window.onresize = function () {
     navBar.style.display = "none";
     dataSmall.style.display = "none";
     hamnav.style.display = "none";
+    hamList.style.display="none";
   } else {
     console.log("it runs");
+    hamList.style.display="block";
     handlenav();
   }
   if(screen.width<610){

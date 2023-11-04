@@ -299,6 +299,28 @@
   #ham-nav {
     display: none;
   }
+  .ham-list-container ul{
+    list-style: none;
+  }
+  .ham-list-container ul li{
+    margin: 25px 15px;
+  }
+  .ham-list-footer{
+    /* border:2px solid black; */
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 97vw;
+    position: fixed;
+    bottom:0;
+    background-color: rgb(171, 171, 171);
+    padding:20px;
+  }
+  .ham-list-footer button{
+    background-color: white;
+    /* margin:10px; */
+    height: 48px;
+  }
   /* #ham-nav{display: none;} */
 }
 @media only screen and (min-width: 1175px) {
