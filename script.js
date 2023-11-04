@@ -1,190 +1,205 @@
 // Sample course data
 const data = [
   {
-      "image-url": "images/company-logo/ibm-logo.png",
-      "course-img":"images/course-img/course1-img.png",
-      "company-name": "IBM",
-      "course-title": "IBM Full Stack Developer",
-      "skills-description":"Cloud computing , python , Cloud applications, ...",
+    "image-url": "images/company-logo/ibm-logo.png",
+    "course-img": "images/course-img/course1-img.png",
+    "company-name": "IBM",
+    "course-title": "IBM Full Stack Developer",
+    "skills-description": "Cloud computing , python , Cloud applications, ...",
     //   "skills-description": "HTML, CSS, JavaScript, React, React-router, Front-end Web development, Web Frameworks...",
-      "star": "4.6",
-      "reviews": "(40k reviews)",
-      "level": "Beginner",
-      "certificate": "Professional Certificate",
-      "duration": "3 months"
+    star: "4.6",
+    reviews: "(40k reviews)",
+    level: "Beginner",
+    certificate: "Professional Certificate",
+    duration: "3 months",
   },
   {
     "image-url": "images/company-logo/meta-logo.png",
-    "course-img":"images/course-img/course2-img.png",
+    "course-img": "images/course-img/course2-img.png",
     "company-name": "Meta",
     "course-title": "Meta Front-End Developer",
-    "skills-description": "HTML, CSS, JavaScript, React, React-router, Front-end Web development, Web Frameworks...",
-    "star": "4.7",
-    "reviews": "(14k reviews)",
-    "level": "Beginner",
-    "certificate": "Professional Certificate",
-    "duration": "2 months",
-},
-{
+    "skills-description":
+      "HTML, CSS, JavaScript, React, React-router, Front-end Web development, Web Frameworks...",
+    star: "4.7",
+    reviews: "(14k reviews)",
+    level: "Beginner",
+    certificate: "Professional Certificate",
+    duration: "2 months",
+  },
+  {
     "image-url": "images/company-logo/john-logo.png",
-    "course-img":"images/course-img/course3-img.png",
+    "course-img": "images/course-img/course3-img.png",
     "company-name": "Johns Hopkins University",
     "course-title": "HTML, CSS, and Javascript for Web developers",
-    "skills-description":"Front-End Web development, HTML and CSS, Javascript...",
+    "skills-description":
+      "Front-End Web development, HTML and CSS, Javascript...",
     // "skills-description": "HTML, CSS, JavaScript, React, React-router, Front-end Web development, Web Frameworks...",
-    "star": "4.7",
-    "reviews": "(15k reviews)",
-    "level": "Beginner",
-    "certificate": "Course",
-    "duration": "2 months",
-},
-{
+    star: "4.7",
+    reviews: "(15k reviews)",
+    level: "Beginner",
+    certificate: "Course",
+    duration: "2 months",
+  },
+  {
     "image-url": "images/company-logo/michigan-logo.png",
-    "course-img":"images/course-img/course4-img.png",
+    "course-img": "images/course-img/course4-img.png",
     "company-name": "Universtity of Michigan",
-    "course-title": "Web Design for Everybody: Basics of Web Development & Coding",
-    "skills-description":"Front-End Web development, HTML and CSS, Javascript...",
+    "course-title":
+      "Web Design for Everybody: Basics of Web Development & Coding",
+    "skills-description":
+      "Front-End Web development, HTML and CSS, Javascript...",
     // "skills-description": "HTML, CSS, JavaScript, React, React-router, Front-end Web development, Web Frameworks...",
-    "star": "4.7",
-    "reviews": "(34k reviews)",
-    "level": "Beginner",
-    "certificate": "Specialisation",
-    "duration": "3 months",
-},
-{
+    star: "4.7",
+    reviews: "(34k reviews)",
+    level: "Beginner",
+    certificate: "Specialisation",
+    duration: "3 months",
+  },
+  {
     "image-url": "images/company-logo/meta-logo.png",
-    "course-img":"images/course-img/course5-img.png",
+    "course-img": "images/course-img/course5-img.png",
     "company-name": "Meta",
     "course-title": "Introduction to Front-End Development",
-    "skills-description": "HTML, CSS, JavaScript, React, React-router, Front-end Web development, Web Frameworks...",
-    "star": "4.8",
-    "reviews": "(8.7k reviews)",
-    "level": "Beginner",
-    "certificate": "Professional Certificate",
-    "duration": "1 months",
-},
-{
+    "skills-description":
+      "HTML, CSS, JavaScript, React, React-router, Front-end Web development, Web Frameworks...",
+    star: "4.8",
+    reviews: "(8.7k reviews)",
+    level: "Beginner",
+    certificate: "Professional Certificate",
+    duration: "1 months",
+  },
+  {
     "image-url": "images/company-logo/ibm-logo.png",
-    "course-img":"images/course-img/course6-img.png",
+    "course-img": "images/course-img/course6-img.png",
     "company-name": "IBM",
-    "course-title": "Indtroduction fo Web Development with HTML, CSS, JavaScript",
+    "course-title":
+      "Indtroduction fo Web Development with HTML, CSS, JavaScript",
     "skills-description": "Web development , Cloud applications, Javascript...",
-    "star": "4.6",
-    "reviews": "(1.6k reviews)",
-    "level": "Beginner",
-    "certificate": "Professional Certificate",
-    "duration": "3 months",
-},
-{
+    star: "4.6",
+    reviews: "(1.6k reviews)",
+    level: "Beginner",
+    certificate: "Professional Certificate",
+    duration: "3 months",
+  },
+  {
     "image-url": "images/company-logo/coursera-proj-logo.png",
-    "course-img":"images/course-img/course7-img.png",
+    "course-img": "images/course-img/course7-img.png",
     "company-name": "Coursera project network",
     "course-title": "Build a Portfolio website with HTML, CSS and Javascript",
     "skills-description": "HTML, CSS, JavaScript, Web Design and Development",
-    "star": "4.1",
-    "reviews": "(18 reviews)",
-    "level": "Intermediate",
-    "certificate": "Guided project",
-    "duration": "1 months",
-},
-{
+    star: "4.1",
+    reviews: "(18 reviews)",
+    level: "Intermediate",
+    certificate: "Guided project",
+    duration: "1 months",
+  },
+  {
     "image-url": "images/company-logo/meta-logo.png",
-    "course-img":"images/course-img/course8-img.png",
+    "course-img": "images/course-img/course8-img.png",
     "company-name": "Meta",
     "course-title": "Meta Back-End Developer",
-    "skills-description": "Python programming, Databases, HTML and CSS, SQL, Database design, Programming principles",
-    "star": "4.7",
-    "reviews": "(5.8k reviews)",
-    "level": "Beginner",
-    "certificate": "Professional Certificate",
-    "duration": "5 months",
-},
-{
+    "skills-description":
+      "Python programming, Databases, HTML and CSS, SQL, Database design, Programming principles",
+    star: "4.7",
+    reviews: "(5.8k reviews)",
+    level: "Beginner",
+    certificate: "Professional Certificate",
+    duration: "5 months",
+  },
+  {
     "image-url": "images/company-logo/ibm-logo.png",
-    "course-img":"images/course-img/course9-img.png",
+    "course-img": "images/course-img/course9-img.png",
     "company-name": "IBM",
     "course-title": "IBM Front-End Developer",
-    "skills-description": "Software engineering , cloud application, Application Developme t, computer programming",
-    "star": "4.5",
-    "reviews": "(2.9k reviews)",
-    "level": "Beginner",
-    "certificate": "Professional Certificate",
-    "duration": "6 months",
-},
-{
+    "skills-description":
+      "Software engineering , cloud application, Application Developme t, computer programming",
+    star: "4.5",
+    reviews: "(2.9k reviews)",
+    level: "Beginner",
+    certificate: "Professional Certificate",
+    duration: "6 months",
+  },
+  {
     "image-url": "images/company-logo/california-logo.png",
-    "course-img":"images/course-img/course10-img.png",
+    "course-img": "images/course-img/course10-img.png",
     "company-name": "University of California, Davis",
     "course-title": "Introduction to Web development",
-    "skills-description": "Computer programming, Front-end web development, HTML and CSS ...",
-    "star": "4.7",
-    "reviews": "(3.6k reviews)",
-    "level": "Beginner",
-    "certificate": "Course",
-    "duration": "3 months",
-},
-{
+    "skills-description":
+      "Computer programming, Front-end web development, HTML and CSS ...",
+    star: "4.7",
+    reviews: "(3.6k reviews)",
+    level: "Beginner",
+    certificate: "Course",
+    duration: "3 months",
+  },
+  {
     "image-url": "images/company-logo/google-logo.png",
-    "course-img":"images/course-img/course11-img.png",
+    "course-img": "images/course-img/course11-img.png",
     "company-name": "Google",
     "course-title": "Google UX Design",
-    "skills-description": "User Experience, User Experience Design, User Research, Audit Collaboration, Human computer...",
-    "star": "4.8",
-    "reviews": "(72.6k reviews)",
-    "level": "Beginner",
-    "certificate": "Professional Certificate",
-    "duration": "5 months",
-},
-{
+    "skills-description":
+      "User Experience, User Experience Design, User Research, Audit Collaboration, Human computer...",
+    star: "4.8",
+    reviews: "(72.6k reviews)",
+    level: "Beginner",
+    certificate: "Professional Certificate",
+    duration: "5 months",
+  },
+  {
     "image-url": "images/company-logo/ibm-logo.png",
-    "course-img":"images/course-img/course12-img.png",
+    "course-img": "images/course-img/course12-img.png",
     "company-name": "IBM",
     "course-title": "IBM Back-End Development",
-    "skills-description": "Application Development, Software engineering, Python programming, computer development...",
-    "star": "4.6",
-    "reviews": "(36.6k reviews)",
-    "level": "Beginner",
-    "certificate": "Professional Certificate",
-    "duration": "3 months",
-}
+    "skills-description":
+      "Application Development, Software engineering, Python programming, computer development...",
+    star: "4.6",
+    reviews: "(36.6k reviews)",
+    level: "Beginner",
+    certificate: "Professional Certificate",
+    duration: "3 months",
+  },
   // Add other course objects here as needed
 ];
 
-const durationCheckboxes = document.querySelectorAll('input[type="checkbox"][data-duration-min]');
-const levelCheckboxes = document.querySelectorAll('input[type="checkbox"][data-level]');
+const durationCheckboxes = document.querySelectorAll(
+  'input[type="checkbox"][data-duration-min]'
+);
+const levelCheckboxes = document.querySelectorAll(
+  'input[type="checkbox"][data-level]'
+);
 
-durationCheckboxes.forEach(checkbox => {
-  checkbox.addEventListener('change', filterCourses);
+durationCheckboxes.forEach((checkbox) => {
+  checkbox.addEventListener("change", filterCourses);
 });
 
-levelCheckboxes.forEach(checkbox => {
-  checkbox.addEventListener('change', filterCourses);
+levelCheckboxes.forEach((checkbox) => {
+  checkbox.addEventListener("change", filterCourses);
 });
 
 function displayCourses1(courses) {
-//   const coursesDiv = document.getElementsById('course-cards1');
-const coursesDiv=document.getElementById('course-cards1');
+  //   const coursesDiv = document.getElementsById('course-cards1');
+  const coursesDiv = document.getElementById("course-cards1");
 
-  coursesDiv.innerHTML = '';
+  coursesDiv.innerHTML = "";
 
-  courses.forEach(course => {
-      const courseCard = document.createElement('div');
-      courseCard.classList.add('cards1');
-      courseCard.innerHTML = `
-          <div class="course-img" style="background-image: url(${course['course-img']})"></div>
+  courses.forEach((course) => {
+    const courseCard = document.createElement("div");
+    courseCard.classList.add("cards1");
+    courseCard.innerHTML = `
+          <div class="course-img" style="background-image: url(${course["course-img"]})"></div>
           <span class="company-logo">
-              <img src="${course['image-url']}" style="
+              <img src="${course["image-url"]}" style="
                   /* Your inline styles for the company logo */
               " alt="">
           </span>
           <span class="company-name" style="position: relative; top: -5px; font-size: 14px;">
-              ${course['company-name']}
+              ${course["company-name"]}
           </span>
-          <div class="course-title">${course['course-title']}</div>
+          <div class="course-title">${course["course-title"]}</div>
           <div class="skills">
               <span class="skill-you">Skills you will gain :</span>
               <span class="skills-description">
-                  ${course['skills-description']}
+                  ${course["skills-description"]}
               </span>
           </div>
           <div class="ratings">
@@ -201,35 +216,34 @@ const coursesDiv=document.getElementById('course-cards1');
               <span class="duration">${course.duration}</span>
           </div>
       `;
-      coursesDiv.appendChild(courseCard);
-      
+    coursesDiv.appendChild(courseCard);
   });
   console.log(coursesDiv);
 }
 function displayCourses2(courses) {
-    //   const coursesDiv = document.getElementsById('course-cards1');
-    const coursesDiv=document.getElementById('course-cards2');
-    
-      coursesDiv.innerHTML = '';
-    
-      courses.forEach(course => {
-          const courseCard = document.createElement('div');
-          courseCard.classList.add('cards2');
-          courseCard.innerHTML = `
-              <div class="course-img" style="background-image: url(${course['course-img']})"></div>
+  //   const coursesDiv = document.getElementsById('course-cards1');
+  const coursesDiv = document.getElementById("course-cards2");
+
+  coursesDiv.innerHTML = "";
+
+  courses.forEach((course) => {
+    const courseCard = document.createElement("div");
+    courseCard.classList.add("cards2");
+    courseCard.innerHTML = `
+              <div class="course-img" style="background-image: url(${course["course-img"]})"></div>
               <span class="company-logo">
-                  <img src="${course['image-url']}" style="
+                  <img src="${course["image-url"]}" style="
                       /* Your inline styles for the company logo */
                   " alt="">
               </span>
               <span class="company-name" style="position: relative; top: -5px; font-size: 14px;">
-                  ${course['company-name']}
+                  ${course["company-name"]}
               </span>
-              <div class="course-title">${course['course-title']}</div>
+              <div class="course-title">${course["course-title"]}</div>
               <div class="skills">
                   <span class="skill-you">Skills you will gain :</span>
                   <span class="skills-description">
-                      ${course['skills-description']}
+                      ${course["skills-description"]}
                   </span>
               </div>
               <div class="ratings">
@@ -246,30 +260,32 @@ function displayCourses2(courses) {
                   <span class="duration">${course.duration}</span>
               </div>
           `;
-          coursesDiv.appendChild(courseCard);
-          
-      });
-      console.log(coursesDiv);
-    }
+    coursesDiv.appendChild(courseCard);
+  });
+  console.log(coursesDiv);
+}
 
 function filterCourses() {
   const selectedDurations = Array.from(durationCheckboxes)
-      .filter(checkbox => checkbox.checked)
-      .map(checkbox => ({
-          min: parseInt(checkbox.getAttribute('data-duration-min')),
-          max: parseInt(checkbox.getAttribute('data-duration-max'))
-      }));
+    .filter((checkbox) => checkbox.checked)
+    .map((checkbox) => ({
+      min: parseInt(checkbox.getAttribute("data-duration-min")),
+      max: parseInt(checkbox.getAttribute("data-duration-max")),
+    }));
 
   const selectedLevels = Array.from(levelCheckboxes)
-      .filter(checkbox => checkbox.checked)
-      .map(checkbox => checkbox.getAttribute('data-level'));
+    .filter((checkbox) => checkbox.checked)
+    .map((checkbox) => checkbox.getAttribute("data-level"));
 
-  const filteredCourses = data.filter(course => {
-      const duration = parseDuration(course.duration);
-      return (
-          (selectedDurations.length === 0 || selectedDurations.some(range => duration >= range.min && duration <= range.max)) &&
-          (selectedLevels.length === 0 || selectedLevels.includes(course.level))
-      );
+  const filteredCourses = data.filter((course) => {
+    const duration = parseDuration(course.duration);
+    return (
+      (selectedDurations.length === 0 ||
+        selectedDurations.some(
+          (range) => duration >= range.min && duration <= range.max
+        )) &&
+      (selectedLevels.length === 0 || selectedLevels.includes(course.level))
+    );
   });
 
   displayCourses1(filteredCourses);
@@ -277,7 +293,7 @@ function filterCourses() {
 }
 
 function parseDuration(durationString) {
-  const durationArray = durationString.split(' ');
+  const durationArray = durationString.split(" ");
   const durationValue = durationArray[0]; // Extracting the numeric value
   return parseInt(durationValue);
 }
@@ -285,38 +301,76 @@ function parseDuration(durationString) {
 // Initial display of courses
 displayCourses1(data);
 displayCourses2(data);
+let hamclicked = false;
+let crossclicked = false;
+
+//to show tha navbar when hamburger is clicked
+
+function showhamnav() {
+  var navBar = document.getElementById("nav-small");
+  var heroSmall = document.getElementById("small-hero");
+  var dataSmall = document.getElementById("data-small");
+  var hamnav = document.getElementById("ham-nav");
+  hamnav.style.display = "block";
+  navBar.style.display = "none";
+  heroSmall.style.display = "none";
+  dataSmall.style.display = "none";
+}
+
+//to show tha navbar when cross is clicked or when it's first time appear
+function showsmallnav() {
+  var navBar = document.getElementById("nav-small");
+  var heroSmall = document.getElementById("small-hero");
+  var dataSmall = document.getElementById("data-small");
+  var hamnav = document.getElementById("ham-nav");
+  hamnav.style.display = "none";
+  navBar.style.display = "flex";
+  heroSmall.style.display = "flex";
+  dataSmall.style.display = "flex";
+}
+
+//handling the nav
+function handlenav() {
+  if (hamclicked == false && crossclicked === false) {
+    showsmallnav();
+  }
+
+  if (hamclicked === true) {
+    showhamnav();
+  }
+
+  if (crossclicked === true) {
+    console.log("cross clicked");
+
+    showsmallnav();
+  }
+}
+
+function handleCross() {
+  crossclicked = true;
+  hamclicked = false;
+  handlenav();
+}
 
 // hamburger
-function handleBurger(){
-    var card=document.getElementById('ham-nav');
-    var navBar=document.getElementById('nav-small');
-    var dataSmall=document.getElementById('data-small');
-    var heroSmall=document.getElementById('small-hero');
-    heroSmall.style.display='none';
-    dataSmall.style.display='none';
-    navBar.style.display='none';
-    card.style.display='block';
+function handleBurger() {
+  hamclicked = true;
+  crossclicked = false;
+  handlenav();
 }
-function handleCross(){
-    var card=document.getElementById('ham-nav');
-    var navBar=document.getElementById('nav-small');
-    var dataSmall=document.getElementById('data-small');
-    var heroSmall=document.getElementById('small-hero');
-    heroSmall.style.display='block';
-    dataSmall.style.display='block';
-    if (window.matchMedia('(min-width: 1175px)').matches) {
-        navBar.style.display = defaultDisplay; // Hide the section for smaller screens
-    } else {
-        navBar.style.display = 'none'; // Show the section for larger screens
-    }
 
-    navBar.style.display='flex';
-    card.style.display='none';
-    const responsiveDiv = document.querySelector('.nav-small');
-    const defaultDisplay = window.getComputedStyle(responsiveDiv).getPropertyValue('display');
-
-}
-window.addEventListener('resize', handleCross);
-
-// Initial check on page load
-handleCross();
+window.onresize = function () {
+  var hamnav = document.getElementById("ham-nav");
+  var navBar = document.getElementById("nav-small");
+  var heroSmall = document.getElementById("small-hero");
+  var dataSmall = document.getElementById("data-small");
+  if (screen.width >= 1175) {
+    heroSmall.style.display = "none";
+    navBar.style.display = "none";
+    dataSmall.style.display = "none";
+    hamnav.style.display = "none";
+  } else {
+    console.log("it runs");
+    handlenav();
+  }
+};
