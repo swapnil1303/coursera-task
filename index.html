@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar" id="nav-large">
+            <div class="routes">
+                <div class="route active">
+                    <div style="font-size: 16px; padding: 0 3px;">For Individuals</div>
+                </div>
+                <div class="route">
+                    <div style="font-size: 16px; padding: 0 3px;">For Businesses</div>
+                </div>
+                <div class="route">
+                    <div style="font-size: 16px; padding: 0 3px;">For Universities</div>
+                </div>
+                <div class="route">
+                    <div style="font-size: 16px; padding: 0 3px;;">For Governments</div>
+                </div>
+            </div>
+        </div>
+        <div id="nav-small">
+            <div class="burger" onclick="handleBurger()">
+                <svg fill="#1F1F1F" class="_ufjrdd" viewBox="0 0 48 48" role="img"
+                    aria-labelledby="Listc18fd953-5859-4399-89bd-de9f6ec6520d Listc18fd953-5859-4399-89bd-de9f6ec6520dDesc"
+                    xmlns="http://www.w3.org/2000/svg" style="fill: rgb(54, 59, 66); height: 26px; width: 26px;">
+                    <title id="Listc18fd953-5859-4399-89bd-de9f6ec6520d">List</title>
+                    <polygon points="0 2 38 2 38 0 0 0" role="presentation"></polygon>
+                    <polygon points="0 16 38 16 38 14 0 14" role="presentation"></polygon>
+                    <polygon points="0 30 38 30 38 28 0 28" role="presentation"></polygon>
+                </svg>
+            </div>
+            <div class="logo">
+                <img src="images/download.svg" style="height: 15.33px;" alt="">
+            </div>
+            <div class="search">
+                <!-- <input type="search"> -->
+                <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"
+                        transform="translate(-293.000000, -23.000000)">
+                        <g fill="#1F1F1F">
+                            <g transform="translate(293.000000, 22.000000)">
+                                <path
+                                    d="M11.355485,11.4503883 L16.0066609,16.1015642 L15.1015642,17.0066609 L10.4503883,12.355485 C9.34711116,13.2583262 7.93681293,13.8 6.4,13.8 C2.8653776,13.8 0,10.9346224 0,7.4 C0,3.8653776 2.8653776,1 6.4,1 C9.9346224,1 12.8,3.8653776 12.8,7.4 C12.8,8.93681293 12.2583262,10.3471112 11.355485,11.4503883 Z M6.4,12.52 C9.22769792,12.52 11.52,10.2276979 11.52,7.4 C11.52,4.57230208 9.22769792,2.28 6.4,2.28 C3.57230208,2.28 1.28,4.57230208 1.28,7.4 C1.28,10.2276979 3.57230208,12.52 6.4,12.52 Z">
+                                </path>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+            </div>
+        </div>
+        <div class="ham-nav" id="ham-nav">
+            <div class="ham-navbar" id="ham-navbar">
+                <div></div>
+                <div class="ham-coursera-logo">
+                    <svg viewBox="0 0 1155 164" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" style="height: 18px;"><path d="M159.75 81.54c0-44.49 36.63-80.47 82.43-80.47 46.12 0 82.76 36 82.76 80.47 0 44.16-36.64 80.8-82.76 80.8-45.8 0-82.43-36.68-82.43-80.8zm125.61 0c0-22.24-19.3-41.87-43.18-41.87-23.55 0-42.85 19.63-42.85 41.87 0 22.57 19.3 42.2 42.85 42.2 23.92 0 43.18-19.63 43.18-42.2zm705.63 1.31c0-48.74 39.58-81.78 75.57-81.78 24.53 0 38.6 7.52 48.08 21.92l3.77-19h36.79v155.4h-36.79l-4.75-16c-10.79 11.78-24.21 19-47.1 19-35.33-.05-75.57-31.13-75.57-79.54zm125.61-.33c-.09-23.527-19.47-42.835-43-42.835-23.59 0-43 19.411-43 43v.165c0 21.59 19.3 40.89 42.86 40.89 23.85 0 43.14-19.3 43.14-41.22zM945.78 22V4h-40.23v155.39h40.23V75.66c0-25.19 12.44-38.27 34-38.27 1.43 0 2.79.1 4.12.23L991.36.11c-20.97.11-36.17 7.3-45.58 21.89zm-404.27.01v-18l-40.23.09.34 155.37 40.23-.09-.22-83.72c-.06-25.18 12.35-38.29 33.93-38.34 1.376.004 2.752.081 4.12.23L587.1 0c-21 .17-36.22 7.39-45.59 22.01zM338.88 99.2V4.01h40.22V94.3c0 19.95 11.12 31.73 30.42 31.73 21.59 0 34-13.09 34-38.28V4.01h40.24v155.38h-40.21v-18c-9.48 14.72-24.86 21.92-46.12 21.92-35.98.01-58.55-26.16-58.55-64.11zm391.74-17.48c.09-43.51 31.23-80.74 80.62-80.65 45.8.09 78.11 36.78 78 80 .01 4.273-.33 8.54-1 12.76l-118.41-.22c4.54 18.65 19.89 32.09 43.12 32.14 14.06 0 29.12-5.18 38.3-16.94l27.44 22c-14.11 19.93-39 31.66-65.48 31.61-46.75-.16-82.67-35.23-82.59-80.7zm118.12-16.14c-2.26-15.7-18.59-27.84-37.89-27.87-18.65 0-33.71 11.06-39.63 27.73l77.52.14zm-261.4 59.94l35.76-18.72c5.91 12.81 17.73 20.36 34.48 20.36 15.43 0 21.34-4.92 21.34-11.82 0-25-84.71-9.85-84.71-67 0-31.52 27.58-48.26 61.72-48.26 25.94 0 48.92 11.49 61.4 32.83l-35.44 18.75c-5.25-10.51-15.1-16.42-27.58-16.42-12.14 0-18.06 4.27-18.06 11.49 0 24.3 84.71 8.87 84.71 67 0 30.21-24.62 48.59-64.35 48.59-33.82-.03-57.46-11.19-69.27-36.8zM0 81.54C0 36.73 36.63.74 82.43.74c27.947-.196 54.182 13.737 69.67 37l-34.34 19.92a42.972 42.972 0 00-35.33-18.32c-23.55 0-42.85 19.63-42.85 42.2 0 22.57 19.3 42.2 42.85 42.2a42.502 42.502 0 0036.31-20l34 20.28c-15.307 23.955-41.902 38.431-70.33 38.28C36.63 162.34 0 125.66 0 81.54z" fill="#0056D2" fill-rule="nonzero"/></svg>
+                </div>
+                <div class="ham-cross" onclick="handleCross()" style="margin-right:16px">
+                    <svg class="_ufjrdd" viewBox="0 0 48 48" role="img" aria-labelledby="Close943dd27e-9873-4b1e-e1ec-74e427d8be8a Close943dd27e-9873-4b1e-e1ec-74e427d8be8aDesc" xmlns="http://www.w3.org/2000/svg" style="fill: rgb(54, 59, 66); height: 26px; width: 26px; color: black;"><title id="Close943dd27e-9873-4b1e-e1ec-74e427d8be8a">Close</title><g transform="translate(-915.000000, -3440.000000)" role="presentation"><polygon points="952.558 3449 939 3462.558 925.442 3449 924 3450.442 937.558 3463.999 924 3477.558 925.442 3479 939 3465.442 952.558 3479 954 3477.558 940.442 3463.999 954 3450.442"></polygon></g></svg>
+                </div>
+            </div>
+            <div class="nav-list">
+                home
+                about 
+                blah
+                blah
+            </div>
+        </div>
+        <!-- <div class="underline"></div> -->
+        <!-- second part -->
+        <div class="data-large">
+            <div class="first-half">
+                <div class="logo">
+                    <img style="height: 32px; padding: 7px;"
+                        src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE2LjIuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPgo8c3ZnIHZpZXdCb3g9IjAgMCAxMTU1IDE2NCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLW1pdGVybGltaXQ9IjIiPjxwYXRoIGQ9Ik0xNTkuNzUgODEuNTRjMC00NC40OSAzNi42My04MC40NyA4Mi40My04MC40NyA0Ni4xMiAwIDgyLjc2IDM2IDgyLjc2IDgwLjQ3IDAgNDQuMTYtMzYuNjQgODAuOC04Mi43NiA4MC44LTQ1LjggMC04Mi40My0zNi42OC04Mi40My04MC44em0xMjUuNjEgMGMwLTIyLjI0LTE5LjMtNDEuODctNDMuMTgtNDEuODctMjMuNTUgMC00Mi44NSAxOS42My00Mi44NSA0MS44NyAwIDIyLjU3IDE5LjMgNDIuMiA0Mi44NSA0Mi4yIDIzLjkyIDAgNDMuMTgtMTkuNjMgNDMuMTgtNDIuMnptNzA1LjYzIDEuMzFjMC00OC43NCAzOS41OC04MS43OCA3NS41Ny04MS43OCAyNC41MyAwIDM4LjYgNy41MiA0OC4wOCAyMS45MmwzLjc3LTE5aDM2Ljc5djE1NS40aC0zNi43OWwtNC43NS0xNmMtMTAuNzkgMTEuNzgtMjQuMjEgMTktNDcuMSAxOS0zNS4zMy0uMDUtNzUuNTctMzEuMTMtNzUuNTctNzkuNTR6bTEyNS42MS0uMzNjLS4wOS0yMy41MjctMTkuNDctNDIuODM1LTQzLTQyLjgzNS0yMy41OSAwLTQzIDE5LjQxMS00MyA0M3YuMTY1YzAgMjEuNTkgMTkuMyA0MC44OSA0Mi44NiA0MC44OSAyMy44NSAwIDQzLjE0LTE5LjMgNDMuMTQtNDEuMjJ6TTk0NS43OCAyMlY0aC00MC4yM3YxNTUuMzloNDAuMjNWNzUuNjZjMC0yNS4xOSAxMi40NC0zOC4yNyAzNC0zOC4yNyAxLjQzIDAgMi43OS4xIDQuMTIuMjNMOTkxLjM2LjExYy0yMC45Ny4xMS0zNi4xNyA3LjMtNDUuNTggMjEuODl6bS00MDQuMjcuMDF2LTE4bC00MC4yMy4wOS4zNCAxNTUuMzcgNDAuMjMtLjA5LS4yMi04My43MmMtLjA2LTI1LjE4IDEyLjM1LTM4LjI5IDMzLjkzLTM4LjM0IDEuMzc2LjAwNCAyLjc1Mi4wODEgNC4xMi4yM0w1ODcuMSAwYy0yMSAuMTctMzYuMjIgNy4zOS00NS41OSAyMi4wMXpNMzM4Ljg4IDk5LjJWNC4wMWg0MC4yMlY5NC4zYzAgMTkuOTUgMTEuMTIgMzEuNzMgMzAuNDIgMzEuNzMgMjEuNTkgMCAzNC0xMy4wOSAzNC0zOC4yOFY0LjAxaDQwLjI0djE1NS4zOGgtNDAuMjF2LTE4Yy05LjQ4IDE0LjcyLTI0Ljg2IDIxLjkyLTQ2LjEyIDIxLjkyLTM1Ljk4LjAxLTU4LjU1LTI2LjE2LTU4LjU1LTY0LjExem0zOTEuNzQtMTcuNDhjLjA5LTQzLjUxIDMxLjIzLTgwLjc0IDgwLjYyLTgwLjY1IDQ1LjguMDkgNzguMTEgMzYuNzggNzggODAgLjAxIDQuMjczLS4zMyA4LjU0LTEgMTIuNzZsLTExOC40MS0uMjJjNC41NCAxOC42NSAxOS44OSAzMi4wOSA0My4xMiAzMi4xNCAxNC4wNiAwIDI5LjEyLTUuMTggMzguMy0xNi45NGwyNy40NCAyMmMtMTQuMTEgMTkuOTMtMzkgMzEuNjYtNjUuNDggMzEuNjEtNDYuNzUtLjE2LTgyLjY3LTM1LjIzLTgyLjU5LTgwLjd6bTExOC4xMi0xNi4xNGMtMi4yNi0xNS43LTE4LjU5LTI3Ljg0LTM3Ljg5LTI3Ljg3LTE4LjY1IDAtMzMuNzEgMTEuMDYtMzkuNjMgMjcuNzNsNzcuNTIuMTR6bS0yNjEuNCA1OS45NGwzNS43Ni0xOC43MmM1LjkxIDEyLjgxIDE3LjczIDIwLjM2IDM0LjQ4IDIwLjM2IDE1LjQzIDAgMjEuMzQtNC45MiAyMS4zNC0xMS44MiAwLTI1LTg0LjcxLTkuODUtODQuNzEtNjcgMC0zMS41MiAyNy41OC00OC4yNiA2MS43Mi00OC4yNiAyNS45NCAwIDQ4LjkyIDExLjQ5IDYxLjQgMzIuODNsLTM1LjQ0IDE4Ljc1Yy01LjI1LTEwLjUxLTE1LjEtMTYuNDItMjcuNTgtMTYuNDItMTIuMTQgMC0xOC4wNiA0LjI3LTE4LjA2IDExLjQ5IDAgMjQuMyA4NC43MSA4Ljg3IDg0LjcxIDY3IDAgMzAuMjEtMjQuNjIgNDguNTktNjQuMzUgNDguNTktMzMuODItLjAzLTU3LjQ2LTExLjE5LTY5LjI3LTM2Ljh6TTAgODEuNTRDMCAzNi43MyAzNi42My43NCA4Mi40My43NGMyNy45NDctLjE5NiA1NC4xODIgMTMuNzM3IDY5LjY3IDM3bC0zNC4zNCAxOS45MmE0Mi45NzIgNDIuOTcyIDAgMDAtMzUuMzMtMTguMzJjLTIzLjU1IDAtNDIuODUgMTkuNjMtNDIuODUgNDIuMiAwIDIyLjU3IDE5LjMgNDIuMiA0Mi44NSA0Mi4yYTQyLjUwMiA0Mi41MDIgMCAwMDM2LjMxLTIwbDM0IDIwLjI4Yy0xNS4zMDcgMjMuOTU1LTQxLjkwMiAzOC40MzEtNzAuMzMgMzguMjhDMzYuNjMgMTYyLjM0IDAgMTI1LjY2IDAgODEuNTR6IiBmaWxsPSIjMDA1NkQyIiBmaWxsLXJ1bGU9Im5vbnplcm8iLz48L3N2Zz4="
+                        class="rc-CourseraLogo" alt="Coursera" aria-hidden="true">
+                </div>
+                <div class="enroll-btn">
+                    <button type="button"
+                        style="border:none; width: 90px; background: #0056d2;color: white;padding: 8px 3px;border-radius: 6px;">Explore
+                        <svg class="rc-ExploreButton__arrow css-t7eghb" viewBox="0 0 32 32"
+                            style="margin-left:3px; width: 9px;height: 9px;">
+                            <path fill="#fff"
+                                d="M30.054 14.429l-13.25 13.232q-0.339 0.339-0.804 0.339t-0.804-0.339l-13.25-13.232q-0.339-0.339-0.339-0.813t0.339-0.813l2.964-2.946q0.339-0.339 0.804-0.339t0.804 0.339l9.482 9.482 9.482-9.482q0.339-0.339 0.804-0.339t0.804 0.339l2.964 2.946q0.339 0.339 0.339 0.813t-0.339 0.813z">
+                            </path>
+                            <path fill="#fff"
+                                d="M30.054 14.429l-13.25 13.232q-0.339 0.339-0.804 0.339t-0.804-0.339l-13.25-13.232q-0.339-0.339-0.339-0.813t0.339-0.813l2.964-2.946q0.339-0.339 0.804-0.339t0.804 0.339l9.482 9.482 9.482-9.482q0.339-0.339 0.804-0.339t0.804 0.339l2.964 2.946q0.339 0.339 0.339 0.813t-0.339 0.813z">
+                            </path>
+                        </svg>
+                    </button>
+                </div>
+                <div class="search-courses">
+                    <input type="text" style="padding:0px 10px; width: 75%;" placeholder="What do you want to learn">
+                    <img src="images/loupe.png"
+                        style="padding: 10px;  background-color: #0056d2;border-top-right-radius: 5px; border-bottom-right-radius: 5px;">
+                </div>
+            </div>
+            <div style="width: 30%;"></div>
+            <div class="second-half">
+                <div style="position: relative;">
+                    <span>Online degrees</span>
+                    <svg aria-hidden="true" fill="none" focusable="false" height="20" viewBox="0 0 20 20" width="20"
+                        id="cds-react-aria-2200" class="css-awzoag">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M10 14.293L1.354 5.646l-.708.708L10 15.707l9.354-9.353-.707-.708L10 14.293z"
+                            fill="currentColor"></path>
+                    </svg>
+                </div>
+                <div style="position: relative;" class="find-career">Find New Career</div>
+                <div style="position: relative;" class="login"><a href="/" style="text-decoration: none; color:blue">Log
+                        In</a></div>
+                <div style="position: relative;" class="join-free">
+                    <button type="button"
+                        style="background: #0056d2; height: 40px; width: 85px; border-radius: 7px; color:white; border: none;">
+                        Join For Free
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- data for small screen -->
+        <div id="data-small">
+            <div class="search-courses2">
+
+                <img src="images/loupe.png" style="padding: 10px;  background-color: #0056d2;">
+                <input type="text" style="padding:0px 10px; width: 100%;" placeholder="What do you want to learn">
+            </div>
+        </div>
+        <div class="underline">
+    </header>
+    <div class="hero">
+        <div id="large-hero">
+            <div class="large-hero-data">
+
+                <!-- large-hero -->
+                <div class="filter1">
+                    <div id="filter-options">
+                        <div id="duration-filters">
+                            <h3>Filter by Duration:</h3>
+                            <div class="filter-duration">
+                                <input type="checkbox" id="duration-1-4w" data-duration-min="1" data-duration-max="4">
+                                <label for="duration-1-4w">1-4 weeks</label>
+                            </div>
+                            <div class="filter-duration">
+                                <input type="checkbox" id="duration-5-8w" data-duration-min="5" data-duration-max="8">
+                                <label for="duration-5-8w">5-8 weeks</label>
+                            </div>
+                            <div class="filter-duration">
+                                <input type="checkbox" id="duration-9-12w" data-duration-min="9" data-duration-max="12">
+                                <label for="duration-9-12w">9-12 weeks</label>
+                            </div>
+
+                        </div>
+                        <div id="level-filters">
+                            <h3>Filter by Level:</h3>
+                            <div class="filter-level">
+                                <input type="checkbox" id="level-beginner" data-level="Beginner">
+                                <label for="level-beginner">Beginner</label>
+                            </div>
+                            <div class="filter-level">
+                                <input type="checkbox" id="level-intermediate" data-level="Intermediate">
+                                <label for="level-intermediate">Intermediate</label>
+                            </div>
+                            <div class="filter-level"> 
+                                <input type="checkbox" id="level-advanced" data-level="Advanced">
+                                <label for="level-advanced">Advanced</label>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <!-- <div style="width: 100%; height: 1px; background-color: black; margin-top: 190px;"></div> -->
+                </div>
+               <div class="course-cards1" id="course-cards1"></div>
+            </div>
+        </div>
+        <div id="small-hero" class="small-hero">
+            small-hero
+            <div class="small-hero-data">
+                kdfjkdifandfkldfaifdik
+                <div class="course-cards2" id="course-cards2"></div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
+<!-- 9039608192 -->
