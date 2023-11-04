@@ -368,6 +368,7 @@ window.onresize = function () {
   var navBar = document.getElementById("nav-small");
   var heroSmall = document.getElementById("small-hero");
   var dataSmall = document.getElementById("data-small");
+  var courseCards2=document.getElementById("course-cards2");
   if (screen.width >= 1175) {
     heroSmall.style.display = "none";
     navBar.style.display = "none";
@@ -377,4 +378,12 @@ window.onresize = function () {
     console.log("it runs");
     handlenav();
   }
+  if(screen.width<610){
+    courseCards2.style.gridTemplateColumns="repeat(1,minmax(150px,1fr))";
+  }
+  else{
+    courseCards2.style.gridTemplateColumns="repeat(2,minmax(150px,1fr))";
+  }
 };
+
+// grid-template-columns: repeat(2, minmax(150px, 1fr));
