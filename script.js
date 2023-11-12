@@ -371,6 +371,7 @@ window.onresize = function () {
   var heroSmall = document.getElementById("small-hero");
   var dataSmall = document.getElementById("data-small");
   var courseCards2=document.getElementById("course-cards2");
+  var footerUp=document.getElementById("footer-up");
   if (screen.width >= 1175) {
     heroSmall.style.display = "none";
     navBar.style.display = "none";
@@ -384,9 +385,12 @@ window.onresize = function () {
   }
   if(screen.width<610){
     courseCards2.style.gridTemplateColumns="repeat(1,minmax(150px,1fr))";
+    footerUp.style.gridTemplateColumns="repeat(2,1fr)";
+
   }
   else{
     courseCards2.style.gridTemplateColumns="repeat(2,minmax(150px,1fr))";
+    footerUp.style.gridTemplateColumns="repeat(4,1fr)";
   }
 };
 
